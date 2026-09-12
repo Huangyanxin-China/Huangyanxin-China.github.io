@@ -3,11 +3,11 @@
   "name_zh": "",
   "affiliation": "University of Electronic Science and Technology of China",
   "school": "School of Information and Communication Engineering",
-  "bio": "My research focuses on medical image analysis and geometry-guided learning for radiotherapy target delineation. I study how sparse contour prompts and anatomical context can support three-dimensional target completion.",
-  "bio_zh": "我的研究关注医学图像分析与放疗靶区勾画，探索如何结合稀疏轮廓提示、解剖信息与几何先验，完成三维临床靶区重建。",
+  "bio": "Medical image segmentation, radiotherapy target delineation and MRI reconstruction under incomplete observations.",
+  "bio_zh": "研究稀疏提示、模态缺失和欠采样条件下的医学图像分割与重建。",
   "paper": {
     "title": "CTV-DGG: Prompt-Conditioned Three-Dimensional Clinical Target Volume Delineation with Geometric Guidance",
-    "status": "Research manuscript",
+    "status": "Under review",
     "authors": [
       "Yanxin Huang",
       "Jinyu Qiu",
@@ -47,5 +47,6 @@
         0.9578
       ]
     }
-  }
+  },
+  "orcid": "https://orcid.org/0009-0003-2264-7753"
 }
