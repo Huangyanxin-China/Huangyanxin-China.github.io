@@ -1,0 +1,7 @@
+cohort,test_cases,complete_contour_planes,sdf_area_dice,ctv_dgg_dice,delta_dice
+Private CTV,31,3,0.8103,0.8298,0.0195
+Private CTV,31,5,0.9029,0.9122,0.0093
+Private CTV,31,7,0.9378,0.9436,0.0058
+HMM lung CTV,265,3,0.8346,0.8540,0.0194
+HMM lung CTV,265,5,0.9317,0.9354,0.0037
+HMM lung CTV,265,7,0.9578,0.9599,0.0021

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://huangyanxin-china.github.io/sitemap.xml
