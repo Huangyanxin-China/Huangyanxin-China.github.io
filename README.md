@@ -23,3 +23,9 @@ Update titles, authors and DOI links against the publisher record. Keep English 
 Use the dedicated project repositories for source code. The older `User-Page` is a compatibility entry to this homepage. Repositories associated with AIML-UESTC are outside this maintenance scope.
 
 No clinical volumes, case-level results, model weights, credentials or local source paths are included in this site.
+
+## Visual reference
+
+The current design follows [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template): a centered academic page, biography and portrait, warm accent links, highlighted publication rows, topic filters and section navigation. The HTML, CSS and interactions are implemented for this site's verified content; fictional template identities, publications, awards and contact links are not imported. No remote font or tracking service is required.
+
+Edit this repository directly to maintain the current design. The earlier account-preparation script is an archival generator for the preceding layout.
