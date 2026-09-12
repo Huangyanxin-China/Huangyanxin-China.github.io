@@ -21,7 +21,7 @@ GitHub Pages → **Deploy from a branch** → **main / (root)**. This buildless 
 
 Update titles, authors and DOI links against the publisher record. Keep English and Chinese summaries aligned. CTV aggregate metrics in `projects/ctv-dgg.js`, `research.json` and `assets/aggregate-results.csv` must remain synchronized. The original results figure is retained.
 
-Use the dedicated project repositories for source code. The older `User-Page` is a compatibility entry to this homepage. Repositories associated with AIML-UESTC are outside this maintenance scope.
+Use the dedicated project repositories for source code. The older `/User-Page/` URL redirects to this homepage through `User-Page/index.html` in this repository. Repositories associated with AIML-UESTC are outside this maintenance scope.
 
 No clinical volumes, case-level results, model weights, credentials or local source paths are included in this site.
 
