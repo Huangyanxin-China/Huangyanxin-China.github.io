@@ -1,0 +1,55 @@
+[
+  {
+    "file": "ctv-dgg-architecture.png",
+    "paper": "CTV-DGG: Prompt-Conditioned Three-Dimensional Clinical Target Volume Delineation with Geometric Guidance",
+    "figure": "3",
+    "version": "Submitted manuscript",
+    "source": "Figure_3_method.pdf in the author-provided submission source; referenced by method.tex, line 45",
+    "transformation": "Uncropped PDF rendering at 2x; all original figure content retained",
+    "original_pdf": "ctv-dgg-architecture.pdf",
+    "sha256": "724304955d647334dbaa24a3fe9922b7cdb8dfc9240ac7646476d00221f7c11b"
+  },
+  {
+    "file": "usf-architecture.png",
+    "paper": "A 3D Unified Diffusion Framework for Multi-Modal Segmentation with Missing Modal",
+    "figure": "1",
+    "doi": "10.1109/ICSPS66615.2025.11347631",
+    "version": "Author revised manuscript",
+    "source": "Figure 1 on PDF page 3 of the author-provided revised manuscript",
+    "transformation": "Original embedded raster extracted without resizing or content edits",
+    "sha256": "485d6cc218fc3b5d50e3b35f5e7d4220cbe44a52802adb7ab6351d66cda77ac2"
+  },
+  {
+    "paper": "A multi-task generative model for simultaneous post-contrast MR image synthesis and brainstem glioma segmentation",
+    "doi": "10.1016/j.mri.2024.07.009",
+    "figure": 2,
+    "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0730725X24001863-gr2_lrg.jpg",
+    "transformation": "None; original publisher file",
+    "file": "brainstem-glioma-architecture.jpg",
+    "version": "Publisher figure",
+    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0730725X24001863",
+    "sha256": "c47acf4a6f298364ea57f4989574889d1dcd2c7037f0a230d61cdc18243f3904"
+  },
+  {
+    "paper": "A Multi-contrast Cardiac MRI Reconstruction Method Using an Advanced Unrolled Network Architecture",
+    "doi": "10.1007/978-3-031-87756-8_16",
+    "figure": 1,
+    "source_url": "https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-87756-8_16/MediaObjects/629320_1_En_16_Fig1_HTML.png",
+    "transformation": "None; original publisher file",
+    "file": "cmr-architecture.png",
+    "version": "Publisher figure",
+    "figure_page": "https://link.springer.com/chapter/10.1007/978-3-031-87756-8_16/figures/1",
+    "sha256": "f976830b09cdfc403981327ac95103ce823630e131aa8b0d750b3e446d9a0f8e"
+  },
+  {
+    "paper": "A Multi-contrast Cardiac MRI Reconstruction Method Using an Advanced Unrolled Network Architecture",
+    "doi": "10.1007/978-3-031-87756-8_16",
+    "figure": 2,
+    "source_url": "https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-87756-8_16/MediaObjects/629320_1_En_16_Fig2_HTML.png",
+    "transformation": "None; original publisher file",
+    "file": "cmr-refinement.png",
+    "version": "Publisher figure",
+    "figure_page": "https://link.springer.com/chapter/10.1007/978-3-031-87756-8_16/figures/2",
+    "sha256": "0ba517622a07688292b735d62d79b963355451cb9623b5e3f48785690d2c8c7f"
+  }
+]

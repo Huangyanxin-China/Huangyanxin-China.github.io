@@ -45,3 +45,28 @@ if ('IntersectionObserver' in window && sectionLinks.length) {
     if (section) observer.observe(section);
   });
 }
+
+// A normal image link remains available without JavaScript or dialog support.
+const figureDialog = document.getElementById('figure-dialog');
+if (figureDialog && typeof figureDialog.showModal === 'function') {
+  const figureImage = document.getElementById('figure-dialog-img');
+  const figureTitle = document.getElementById('figure-dialog-title');
+  const figureCaption = document.getElementById('figure-dialog-caption');
+  const figureOriginal = document.getElementById('figure-dialog-original');
+  document.querySelectorAll('.paper-thumb[data-figure]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      figureImage.src = link.href;
+      figureImage.alt = link.querySelector('img').alt;
+      figureTitle.textContent = link.dataset.figure;
+      figureCaption.textContent = link.dataset.caption;
+      figureOriginal.href = link.href;
+      figureDialog.showModal();
+    });
+  });
+  figureDialog.querySelector('.figure-dialog-close').addEventListener('click', () => figureDialog.close());
+  figureDialog.addEventListener('click', event => {
+    if (event.target === figureDialog) figureDialog.close();
+  });
+}

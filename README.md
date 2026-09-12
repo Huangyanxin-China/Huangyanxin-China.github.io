@@ -9,7 +9,7 @@ English academic homepage with Chinese research summaries, paper DOI links and t
 - `index.html`: biography, publications, project navigation and aggregate CTV results.
 - `projects/`: dedicated pages for CTV-DGG, cardiac MRI reconstruction and missing-modality segmentation.
 - `publications.bib`: verified citations for three published papers.
-- `assets/`: an existing public portrait, conceptual diagrams and aggregate figures.
+- `assets/`: an existing public portrait, original manuscript/publisher architecture figures and aggregate results.
 - `styles.css` and `app.js`: responsive presentation and contour-budget interaction.
 
 ## Deployment
@@ -26,6 +26,12 @@ No clinical volumes, case-level results, model weights, credentials or local sou
 
 ## Visual reference
 
-The current design follows [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template): a centered academic page, biography and portrait, warm accent links, highlighted publication rows, topic filters and section navigation. The HTML, CSS and interactions are implemented for this site's verified content; fictional template identities, publications, awards and contact links are not imported. No remote font or tracking service is required.
+The layout retains the academic structure inspired by [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template). Typography and link colors follow [Haobin Li’s homepage](https://hbinli.github.io/) and its [stylesheet](https://hbinli.github.io/assets/css/main.css): `"Trebuchet MS", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif`, with 15px body text. The font is resolved from the visitor’s system; no external font requests are required. Exact glyph appearance depends on installed fonts.
+
+Publication cards show actual figures from the corresponding papers: CTV-DGG manuscript Figure 3, USF author-manuscript Figure 1, cardiac MRI published Figure 1, and brainstem glioma published Figure 2. The cardiac project page also includes published Figure 2. CTV-DGG’s original vector PDF is available from the method section and project page.
+
+Figures preserve their original proportions and contents. Click a thumbnail for an accessible enlarged view; Escape or Close returns to the page. Without JavaScript, each thumbnail opens its original image directly. Ctrl/Cmd-click remains available. Publication filtering and contour-budget results remain interactive.
+
+See [`assets/publications/sources.json`](assets/publications/sources.json) for figure provenance, source URLs and SHA-256 hashes. The USF image is specifically labeled as an author-manuscript figure. Figures retain their original paper attribution and applicable rights.
 
 Edit this repository directly to maintain the current design. The earlier account-preparation script is an archival generator for the preceding layout.
