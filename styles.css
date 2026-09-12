@@ -109,6 +109,11 @@ footer p{margin:5px 0}footer>a{display:inline-block;margin-top:12px}
 .project-page code{font-size:13px;background:var(--wash);padding:3px 6px}
 .project-architecture{margin:28px 0}
 .project-architecture img{display:block;width:100%;height:auto}
+.ctv-project>.authors{margin:0 0 20px}
+.project-nav{display:flex;flex-wrap:wrap;gap:12px 26px;margin:26px 0 36px;padding:16px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);font-size:14px}
+.ctv-project .page-section{margin:0 0 44px}
+.ctv-project .section-heading{margin-bottom:16px}
+.ctv-project .section-heading h2{font-size:24px;line-height:1.35}
 .figure-dialog{padding:0;border:1px solid var(--border);border-radius:9px;width:min(1500px,96vw);max-width:96vw;max-height:94vh;color:var(--ink);box-shadow:0 20px 80px #18253640}
 .figure-dialog::backdrop{background:#182536b8}
 .figure-dialog-content{padding:22px}
