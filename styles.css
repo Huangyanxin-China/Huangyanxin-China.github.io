@@ -1,5 +1,5 @@
 /* Typography follows hbinli.github.io; figures retain their original aspect ratios. */
-:root{--ink:#494e52;--muted:#66717c;--accent:#224b8d;--accent-hover:#163665;--gold:#b48136;--border:#e3e7eb;--wash:#f7f9fc;--highlight:#faf9f4;--font:"Trebuchet MS",Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+:root{--ink:#494e52;--muted:#66717c;--accent:#224b8d;--accent-hover:#163665;--border:#e3e7eb;--wash:#f7f9fc;--highlight:#faf9f4;--font:"Trebuchet MS",Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:28px}
 body{margin:0;background:#fff;color:var(--ink);font:15px/1.55 var(--font)}
@@ -46,12 +46,6 @@ strong{font-weight:700}
 .paper-thumb>img{display:block;width:100%;height:auto;object-fit:contain;margin:auto}
 .thumb-caption{display:flex;justify-content:space-between;align-items:center;gap:8px;text-align:left;font-size:11px;line-height:1.5;margin-top:12px;padding:9px 0;border-top:1px solid #edf0f3;color:var(--muted)}
 .thumb-expand{white-space:nowrap;color:var(--accent)}
-.badge{font-size:13px;font-weight:700;color:#52647b}
-.thumb-steps{display:flex;flex-direction:column;gap:7px;margin:14px 0;font-size:12px;line-height:1.5}
-.thumb-steps>span,.thumb-steps>strong{display:block;border:1px solid var(--border);border-radius:3px;padding:7px;background:var(--wash)}
-.thumb-steps>strong{background:var(--accent);border-color:var(--accent);color:#fff}
-.thumb-steps i{font-style:normal;color:var(--muted);line-height:1}
-.thumb-note{display:block;font-size:11px;color:var(--muted);padding-bottom:12px}
 .paper-copy{min-width:0}
 .status{display:block;font-size:12px;color:var(--muted);margin-bottom:8px;line-height:1.5}
 .featured .status{color:#8a632d;font-weight:700}
@@ -106,7 +100,6 @@ footer p{margin:5px 0}footer>a{display:inline-block;margin-top:12px}
 .project-page .lead{font-size:16px;line-height:1.75}
 .project-page .resource-links{display:flex;flex-wrap:wrap;gap:18px;margin:24px 0;font-size:14px}
 .project-page footer{margin-top:40px;display:flex;justify-content:space-between}
-.project-page code{font-size:13px;background:var(--wash);padding:3px 6px}
 .project-architecture{margin:28px 0}
 .project-architecture img{display:block;width:100%;height:auto}
 .ctv-project>.authors{margin:0 0 20px}
