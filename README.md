@@ -26,9 +26,6 @@ Use the dedicated project repositories for source code. The older `/User-Page/` 
 No clinical volumes, case-level results, model weights, credentials or local source paths are included in this site.
 
 ## Visual reference
-
-The layout retains the academic structure inspired by [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template). Typography and link colors follow [Haobin Li’s homepage](https://hbinli.github.io/) and its [stylesheet](https://hbinli.github.io/assets/css/main.css): `"Trebuchet MS", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif`, with 15px body text. The font is resolved from the visitor’s system; no external font requests are required. Exact glyph appearance depends on installed fonts.
-
 Publication cards show actual figures from the corresponding papers: CTV-DGG manuscript Figure 3, USF author-manuscript Figure 1, cardiac MRI published Figure 1, and brainstem glioma published Figure 2. The cardiac project page also includes published Figure 2. CTV-DGG’s original vector PDF is available from the method section of its project page.
 
 Figures preserve their original proportions and contents. Click a thumbnail for an accessible enlarged view; Escape or Close returns to the page. Without JavaScript, each thumbnail opens its original image directly. Ctrl/Cmd-click remains available. The homepage retains publication filtering. Interactive contour-budget results are available on the CTV-DGG project page; old homepage method/results/Chinese-summary bookmarks redirect there.
